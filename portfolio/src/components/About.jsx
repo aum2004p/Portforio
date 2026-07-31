@@ -84,7 +84,7 @@ const About = () => (
                 {
                   icon: '🏫',
                   school: 'Ake Ayo Thaya School',
-                  degree: 'High School · Computer Science',
+                  degree: 'High School',
                   gpa: 'GPA 3.53',
                   year: '2023',
                 },
