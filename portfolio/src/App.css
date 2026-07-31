@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-float-slow: float 6s ease-in-out infinite;
+  --animate-wiggle: wiggle 3s ease-in-out infinite;
+  --animate-glow: glow 2s ease-in-out infinite;
+  --animate-drift: drift 8s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50%       { transform: translateY(-12px) rotate(1deg); }
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-4deg) scale(1); }
+    50%       { transform: rotate(4deg) scale(1.1); }
+  }
+  @keyframes glow {
+    0%, 100% { opacity: 0.6; transform: scale(1); }
+    50%       { opacity: 1;   transform: scale(1.08); }
+  }
+  @keyframes drift {
+    0%   { transform: translateY(0px)   translateX(0px); }
+    33%  { transform: translateY(-16px) translateX(8px); }
+    66%  { transform: translateY(8px)   translateX(-6px); }
+    100% { transform: translateY(0px)   translateX(0px); }
+  }
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #fdf8f4; }
+::-webkit-scrollbar-thumb { background: #f9a8d4; border-radius: 99px; }
+
+/* selection */
+::selection { background: #fbcfe8; color: #831843; }
