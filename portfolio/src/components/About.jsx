@@ -19,7 +19,7 @@ const About = () => (
           <div className="absolute -inset-3 rounded-[2rem_2rem_3.5rem_2rem]"
                style={{ background: 'linear-gradient(135deg, #f9a8d4, #c4b5fd)', opacity: 0.4, filter: 'blur(14px)' }} />
           <img
-            src="/src/assets/Abm.jpg"
+            src="/assets/Abm.jpg"
             alt="Nattharika Boonsong"
             className="relative w-52 h-64 object-cover object-top rounded-[1.5rem_1.5rem_3rem_1.5rem] hover:scale-105 transition-all duration-500"
             style={{

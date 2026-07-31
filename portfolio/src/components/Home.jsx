@@ -46,7 +46,7 @@ const Home = () => (
         <div className="absolute -inset-3 rounded-[2.5rem_2.5rem_4.5rem_2.5rem] animate-[glow_2.5s_ease-in-out_infinite]"
              style={{ background: 'linear-gradient(135deg, #f9a8d4, #c4b5fd, #fbcfe8)', opacity: 0.5, filter: 'blur(12px)' }} />
         <img
-          src="/src/assets/Profile.jpg"
+          src="/assets/Profile.jpg"
           alt="Nattharika Boonsong"
           className="relative w-64 h-80 object-cover object-top rounded-[2rem_2rem_4rem_2rem] hover:scale-105 hover:rotate-1 transition-all duration-500"
           style={{

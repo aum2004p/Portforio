@@ -1,7 +1,7 @@
 const activities = [
-  { id: 1, year: '2568', title: 'Cybersecurity and IT Empowering', role: 'Participant', description: 'เข้าร่วมงาน Cybersecurity and IT Empowering ในวันที่ 9 พฤษภาคม 2568', image: '/src/assets/Ac1.png' },
-  { id: 2, year: '2569', title: 'IT Empowering Day in the Era of AI', role: 'Participant', description: 'เข้าร่วมงาน IT Empowering Day in the Era of AI ในวันที่ 21 พฤษภาคม 2569', image: '/src/assets/Ac2.png' },
-  { id: 3, year: '2569', title: 'BU Cyber Fortress Challenge & Career Expo', role: 'Participant', description: 'เข้าร่วมงาน BU Cyber Fortress Challenge & Career Expo ในวันที่ 10 กุมภาพันธ์ 2569', image: '/src/assets/Ac3.jpg' },
+  { id: 1, year: '2568', title: 'Cybersecurity and IT Empowering', role: 'Participant', description: 'เข้าร่วมงาน Cybersecurity and IT Empowering ในวันที่ 9 พฤษภาคม 2568', image: '/assets/Ac1.png' },
+  { id: 2, year: '2569', title: 'IT Empowering Day in the Era of AI', role: 'Participant', description: 'เข้าร่วมงาน IT Empowering Day in the Era of AI ในวันที่ 21 พฤษภาคม 2569', image: '/assets/Ac2.png' },
+  { id: 3, year: '2569', title: 'BU Cyber Fortress Challenge & Career Expo', role: 'Participant', description: 'เข้าร่วมงาน BU Cyber Fortress Challenge & Career Expo ในวันที่ 10 กุมภาพันธ์ 2569', image: '/assets/Ac3.jpg' },
 ];
 
 const Activities = () => (

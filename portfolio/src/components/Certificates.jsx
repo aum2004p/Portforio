@@ -1,16 +1,16 @@
 import { useState } from 'react';
 
 const certificates = [
-  { id: 1,  image: '/src/assets/Cer1.png',  title: 'Certificate 1',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 2,  image: '/src/assets/Cer2.png',  title: 'Certificate 2',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 3,  image: '/src/assets/Cer3.png',  title: 'Certificate 3',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 4,  image: '/src/assets/Cer4.png',  title: 'Certificate 4',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 5,  image: '/src/assets/Cer5.png',  title: 'Certificate 5',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 6,  image: '/src/assets/Cer6.png',  title: 'Certificate 6',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 7,  image: '/src/assets/Cer7.png',  title: 'Certificate 7',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 8,  image: '/src/assets/Cer8.png',  title: 'Certificate 8',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 9,  image: '/src/assets/Cer9.png',  title: 'Certificate 9',  issuer: '', date: '', credentialUrl: '#' },
-  { id: 10, image: '/src/assets/Cer10.png', title: 'Certificate 10', issuer: '', date: '', credentialUrl: '#' },
+  { id: 1,  image: '/assets/Cer1.png',  title: 'Certificate 1',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 2,  image: '/assets/Cer2.png',  title: 'Certificate 2',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 3,  image: '/assets/Cer3.png',  title: 'Certificate 3',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 4,  image: '/assets/Cer4.png',  title: 'Certificate 4',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 5,  image: '/assets/Cer5.png',  title: 'Certificate 5',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 6,  image: '/assets/Cer6.png',  title: 'Certificate 6',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 7,  image: '/assets/Cer7.png',  title: 'Certificate 7',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 8,  image: '/assets/Cer8.png',  title: 'Certificate 8',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 9,  image: '/assets/Cer9.png',  title: 'Certificate 9',  issuer: '', date: '', credentialUrl: '#' },
+  { id: 10, image: '/assets/Cer10.png', title: 'Certificate 10', issuer: '', date: '', credentialUrl: '#' },
 ];
 
 const Certificates = () => {
